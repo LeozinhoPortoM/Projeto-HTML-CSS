@@ -1,0 +1,336 @@
+/*
+* 
+* @author Léo Porto
+*/
+
+/* Reset CSS */
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+
+header {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 6vh;
+    margin: 0.4% auto;
+    max-width: 100%;
+}
+
+.logo {
+    margin-left: 5%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 0.5%;
+    cursor: pointer;
+}
+
+#bars {
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+#imgPrincipal {
+    position: relative;
+    width: 80%;
+    height: 30%;
+    margin: 1% auto;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.img {
+    width: 100%;
+}
+
+.item1 {
+    position: absolute;
+    margin: -26% 0 0 6%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.item2 {
+    position: absolute;
+    margin: -25% 0 0 7%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.item3 {
+    position: absolute;
+    margin: -26% 0 0 88%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+/* .item4{
+    position: absolute;
+    margin: 180px 0 0 650px;
+    cursor: pointer;
+} */
+
+.caixas {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 100%;
+}
+
+.imgCaixa {
+    width: 100%;
+    background-size: cover;
+}
+
+.caixa{
+    background-color: #EEEEEE;
+    width: 40%;
+    height: 50%;
+
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 3%;
+    color: #888888;
+    font-size: 2rem;
+}
+
+
+.verde{
+    background-color: #51D275;
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+    width: 20%;
+    height: 5vh;
+    font-size: 70%;
+    border-radius: 20vh;
+    max-width: 100%;
+}
+
+.laranja {
+    background-color: #DC9730;
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+    width: 20%;
+    height: 5vh;
+    font-size: 70%;
+    border-radius: 20vh;
+    max-width: 100%;
+}
+
+.caixa h3{
+    text-align: justify;
+    margin: 4%;
+    color: #888888;
+    
+}
+
+.baners{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.baners h1 {
+    color: #888888;
+    text-align: center;
+    font-size: 280%;
+    margin: 2% 0;
+}
+
+.industrial{
+    position: absolute;
+    margin: -13% 0 0 43%;
+    color: white;
+    font-size: 3rem;
+    max-width: 100%;
+}
+
+.modern{
+    position: absolute;
+    margin: -13% 0 0 43%;
+    color: white;
+    font-size: 3rem;
+    max-width: 100%;
+}
+
+.classic{
+    position: absolute;
+    margin: -13% 0 0 43%;
+    color: white;
+    font-size: 3rem;
+    max-width: 100%;
+}
+
+
+.baners img{
+    filter: opacity(60%);
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3%;
+    background-size: cover;
+}
+
+.rodape {
+    background-color: #333333;
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapa img{
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contato img{
+    width: 150px;
+    margin: 5% 50% 5% 0;
+}
+
+.redesSociais img{
+    width: 30%;
+    margin: 5%;
+
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .caixas {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .caixa{
+        background-color: #EEEEEE;
+        width: 100%;
+        margin-bottom: 5%;
+        height: 50%;
+    }
+
+    .baners{
+        position: relative;
+        margin: auto;
+        width: 80%;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .industrial{
+        position: absolute;
+        margin: -15% 0 0 35%;
+        color: white;
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    
+    .modern{
+        position: absolute;
+        margin: -15% 0 0 35%;
+        color: white;
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    
+    .classic{
+        position: absolute;
+        margin: -15% 0 0 35%;
+        color: white;
+        font-size: 2rem;
+        max-width: 100%;
+    }
+
+    .rodape {
+        background-color: #333333;
+        width: 90%;
+        height: 50vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mapa img{
+        width: 100%;
+        height: 20vh;
+        padding-top: 5%;
+        background-size: cover;
+    }
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 775.98px) {
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+
+}
