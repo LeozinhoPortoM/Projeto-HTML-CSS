@@ -151,11 +151,10 @@ header {
 }
 
 .baners{
-    position: relative;
-    margin: auto;
+    margin:0 auto;
     width: 80%;
-    height: 100%;
     max-width: 100%;
+
 }
 
 .baners h1 {
@@ -165,37 +164,55 @@ header {
     margin: 2% 0;
 }
 
-.industrial{
-    position: absolute;
-    margin: -13% 0 0 43%;
-    color: white;
-    font-size: 3rem;
-    max-width: 100%;
+.imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.modern{
-    position: absolute;
-    margin: -13% 0 0 43%;
-    color: white;
-    font-size: 3rem;
-    max-width: 100%;
-}
-
-.classic{
-    position: absolute;
-    margin: -13% 0 0 43%;
-    color: white;
-    font-size: 3rem;
-    max-width: 100%;
-}
-
-
-.baners img{
+.imgIndustrial{
+    display: flex;
+    background: url(../img/Rectangle\ 11.png) no-repeat center center;
+    background-size: cover;
     filter: opacity(60%);
     width: 100%;
-    max-width: 100%;
-    margin-bottom: 3%;
+    height: 15vh;
+    margin-bottom: 10px ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.imgModern{
+    display: flex;
+    background: url(../img/Rectangle\ 12.png) no-repeat center center;
     background-size: cover;
+    filter: opacity(60%);
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 10px ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.imgClassic{
+    display: flex;
+    background: url(../img/Rectangle\ 13.png) no-repeat center center;
+    background-size: cover;
+    filter: opacity(60%);
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 10px ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
 }
 
 .rodape {
@@ -255,38 +272,6 @@ header {
         width: 100%;
         margin-bottom: 5%;
         height: 50%;
-    }
-
-    .baners{
-        position: relative;
-        margin: auto;
-        width: 80%;
-        height: 300px;
-        max-width: 100%;
-    }
-
-    .industrial{
-        position: absolute;
-        margin: -15% 0 0 35%;
-        color: white;
-        font-size: 2rem;
-        max-width: 100%;
-    }
-    
-    .modern{
-        position: absolute;
-        margin: -15% 0 0 35%;
-        color: white;
-        font-size: 2rem;
-        max-width: 100%;
-    }
-    
-    .classic{
-        position: absolute;
-        margin: -15% 0 0 35%;
-        color: white;
-        font-size: 2rem;
-        max-width: 100%;
     }
 
     .rodape {
